@@ -1,3 +1,54 @@
+# Instruções das aulas
+
+## Aula 01
+### Navegação em Stack e Empilhamento de Telas
+1. navigate
+📖 Docs: https://reactnavigation.org/docs/native-stack-navigator
+✅ O que faz:
+* Navega para uma tela
+* Se ela já estiver na stack, pode reutilizar
+* Não duplica telas se já estiver no topo
+2. push
+📖 Docs: https://reactnavigation.org/docs/stack-actions/#push
+✅ O que faz:
+* Sempre adiciona uma nova instância da tela na pilha
+* Mesmo que já esteja na stack
+
+3. replace
+📖 Docs: https://reactnavigation.org/docs/stack-actions/#replace
+✅ O que faz:
+* Remove a tela atual
+* Coloca outra no lugar
+* Não permite voltar para a anterior
+
+## Aula 02
+### Parâmetros na Rota, Rotas Aninhadas e Tela de Not Found
+
+## Aula 03
+### Navegação em Tabs (Abas)
+
+navigation.navigate() em Tabs
+📖 Docs: https://reactnavigation.org/docs/bottom-tab-navigator
+✅ O que faz em Tabs:
+* Muda para a aba desejada
+* Não cria nova instância
+* Apenas alterna a tab ativa
+
+## Aula 04
+### Navegação em Drawer (Menu Hambúrguer)
+
+Exemplo básico — Drawer
+Instalação (caso ainda não tenha):
+npm install @react-navigation/drawer
+navigation.navigate() no Drawer
+📖 Docs: https://reactnavigation.org/docs/drawer-navigator
+
+✅ O que faz:
+* Muda para outra tela do Drawer
+* Não cria nova instância
+* Apenas troca a rota ativa
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
